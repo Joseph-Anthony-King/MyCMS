@@ -30,3 +30,4 @@ C:\Users\Joe\Source\VS2022\MyCMS\MyCMS.Api\obj\Debug\net8.0\refint\MyCMS.Api.dll
 C:\Users\Joe\Source\VS2022\MyCMS\MyCMS.Api\obj\Debug\net8.0\MyCMS.Api.pdb
 C:\Users\Joe\Source\VS2022\MyCMS\MyCMS.Api\obj\Debug\net8.0\MyCMS.Api.genruntimeconfig.cache
 C:\Users\Joe\Source\VS2022\MyCMS\MyCMS.Api\obj\Debug\net8.0\ref\MyCMS.Api.dll
+C:\Users\Joe\Source\VS2022\MyCMS\MyCMS.Api\obj\Debug\net8.0\MyCMS.Api.sourcelink.json
