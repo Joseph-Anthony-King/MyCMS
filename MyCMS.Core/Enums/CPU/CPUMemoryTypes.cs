@@ -24,11 +24,13 @@ namespace MyCMS.Core.Enums.CPU
         DDR42133,
         [Description("DDR4 1866")]
         DDR41866,
+        [Description("DDR3 2133")]
+        DDR32133,
+        [Description("DDR3 1866")]
+        DDR31866,
         [Description("DDR3L 1600")]
         DDR3L1600,
         [Description("DDR3L 1333")]
         DDR3L1333,
-        [Description("DDR3L 1866")]
-        DDR31866
     }
 }

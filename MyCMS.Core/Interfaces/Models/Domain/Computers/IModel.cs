@@ -1,4 +1,5 @@
-﻿using MyCMS.Core.Interfaces.Models.Domain.Parts;
+﻿
+using MyCMS.Core.Interfaces.Models.Domain.Parts;
 
 namespace MyCMS.Core.Interfaces.Models.Domain.Computers
 {
