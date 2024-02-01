@@ -1,19 +1,24 @@
-﻿namespace MyCMS.Core.Interfaces.Models.Domain.Parts
+﻿using MyCMS.Core.Enums.Memory;
+
+namespace MyCMS.Core.Interfaces.Models.Domain.Parts
 {
     internal interface IMemoryTemplate : IPart
     {
-        int Capacity { get; set; }
+        MemoryCapacity Capacity { get; set; }
+        string CapacityDescription { get; }
         int SticksPerKit { get; set; }
-        int TotalCapacity { get; set; }
-        string DisplayedCapacity { get; }
-        string Speed { get; set; }
+        MemorySpeed Speed { get; set; }
+        string SpeedDescription { get; }
         int CASLatency { get; set; }
         int TRCD { get; set; }
         int TRP { get; set; }
         int TRAS { get; set; }
         string Timing { get; }
-        string Voltage { get; set; }
-        string MultiChannelKit { get; set; }
-        string BiosProfile { get; set; }
+        MemoryVoltage Voltage { get; set; }
+        string VoltageDescription { get; }
+        MemoryChannelKit MultiChannelKit { get; set; }
+        string MultiChannelKitDescription { get; }
+        MemoryBiosProfile BiosProfile { get; set; }
+        string BiosProfileDescription { get; }
     }
 }
